@@ -6,7 +6,7 @@ import {
 	rotateX,
 	rotateY,
 	rotateZ,
-} from "../MV.js";
+} from "./MV.js";
 export {
 	modelView,
 	loadIdentity,

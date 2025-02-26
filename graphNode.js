@@ -1,4 +1,4 @@
-import { mat4, mult, flatten, rotate, vec3, scalem } from "../../libs/MV.js";
+import { mat4, mult, flatten, rotate, vec3, scalem } from "./libs/MV.js";
 
 /**
  * @typedef {Object} DrawInfo
