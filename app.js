@@ -1,20 +1,30 @@
-import { lookAt, ortho, mat4, vec3, flatten, normalMatrix } from "/libs/MV.js";
+import {
+	lookAt,
+	ortho,
+	mat4,
+	vec3,
+	flatten,
+	normalMatrix,
+} from "/Firetruck-Hierarchical-Model/libs/MV.js";
 import {
 	loadShadersFromURLS,
 	buildProgramFromSources,
 	setupWebGL,
-} from "/libs/utils.js";
-import { modelView, loadMatrix } from "/libs/stack.js";
+} from "/Firetruck-Hierarchical-Model/libs/utils.js";
+import {
+	modelView,
+	loadMatrix,
+} from "/Firetruck-Hierarchical-Model/libs/stack.js";
 
-import * as CUBE from "/libs/objects/cube.js";
-import * as SPHERE from "/libs/objects/sphere.js";
-import * as CYLINDER from "/libs/objects/cylinder.js";
-import * as PYRAMID from "/libs/objects/pyramid.js";
-import * as TORUS from "/libs/objects/torus.js";
+import * as CUBE from "/Firetruck-Hierarchical-Model/libs/objects/cube.js";
+import * as SPHERE from "/Firetruck-Hierarchical-Model/libs/objects/sphere.js";
+import * as CYLINDER from "/Firetruck-Hierarchical-Model/libs/objects/cylinder.js";
+import * as PYRAMID from "/Firetruck-Hierarchical-Model/libs/objects/pyramid.js";
+import * as TORUS from "/Firetruck-Hierarchical-Model/libs/objects/torus.js";
 
-import Node from "/graphNode.js";
+import Node from "/Firetruck-Hierarchical-Model/graphNode.js";
 
-import * as CONSTANTS from "/constants.js";
+import * as CONSTANTS from "/Firetruck-Hierarchical-Model/constants.js";
 
 const DIST = 10;
 
