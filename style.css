@@ -31,8 +31,9 @@ body {
 #help_panel {
 	position: fixed;
 	/*display: none;*/
-	width: 300px;
-	height: 300px;
+	/*width: 300px;
+	height: 300px;*/
+	font-size: small;
 	bottom: 0;
 	left: 0;
 	margin: 1%;
